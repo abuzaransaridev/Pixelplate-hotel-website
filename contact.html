@@ -1,236 +1,196 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>Contact Us | Pixel Plate Kitchen</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Contact Pixel Plate Kitchen, view opening hours, or submit a table reservation request.">
+		<meta name="author" content="Abuzar Ansari">
+		
+		<link rel="stylesheet" href="style.css">	
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<nav class="navbar">
+				<a href="index.html" class="logo">
+					Pixel<span>Plate</span>
+				</a>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Our Menu</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+				<a href="#reservation" class="nav-button">Book a Table</a>
+			</nav>
+		</header>
+		<main>
+			<!-- Page Banner -->
+			<section class="page-banner">
+				<p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+				<h1>Let's Make It <span>Special.</span></h1>
+				<p>
+					Planning a visit or a special occasion?
+					Get in touch with Pixel Plate Kitchen.
+				</p>
+			</section>
+			<!-- Contact Information -->
+			<section class="contact-section">
+				<div class="contact-info">
+					<p class="eyebrow">GET IN TOUCH</p>
+					<h2>Visit Our Kitchen</h2>
+					<p class="contact-intro">
+						We look forward to welcoming you.
+						Find our contact details and opening hours below.
+					</p>
+					<div class="contact-detail">
+						<span class="detail-label">ADDRESS</span>
+						<p>
+							Add your restaurant address here
+						</p>
+					</div>
+					<div class="contact-detail">
+						<span class="detail-label">PHONE</span>
+						<p>
+							Add your restaurant phone number
+						</p>
+					</div>
+					<div class="contact-detail">
+						<span class="detail-label">EMAIL</span>
+						<p>
+							Add your restaurant email address
+						</p>
+					</div>
+					<div class="contact-detail">
+						<span class="detail-label">OPENING HOURS</span>
+						<p>Monday – Friday: 11:00 AM – 10:00 PM</p>
+						<p>Saturday – Sunday: 10:00 AM – 11:00 PM</p>
+					</div>
+				</div>
+				<!-- Reservation Form -->
+				<div class="reservation-card" id="reservation">
+					<p class="eyebrow">PLAN YOUR VISIT</p>
+					<h2>Request a Reservation</h2>
+					<p class="form-intro">
+						Fill in your details to prepare a reservation request.
+					</p>
+					<form action="#" method="post">
+						<div class="form-group">
+							<label for="full-name">Full Name</label>
+							<input
+								type="text"
+								id="full-name"
+								name="full_name"
+								placeholder="Enter your full name"
+								autocomplete="name"
+								minlength="3"
+								maxlength="80"
+								required>
+						</div>
 
-    <meta name="description" content="Contact Pixel Plate Kitchen, view opening hours, or submit a table reservation request.">
-    <meta name="author" content="Abuzar Ansari">
-
-    <title>Contact Us | Pixel Plate Kitchen</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <a href="index.html" class="logo">
-                Pixel<span>Plate</span>
-            </a>
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Our Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-
-            <a href="#reservation" class="nav-button">Book a Table</a>
-        </nav>
-    </header>
-
-    <main>
-
-        <!-- Page Banner -->
-        <section class="page-banner">
-            <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
-            <h1>Let's Make It <span>Special.</span></h1>
-            <p>
-                Planning a visit or a special occasion?
-                Get in touch with Pixel Plate Kitchen.
-            </p>
-        </section>
-
-        <!-- Contact Information -->
-        <section class="contact-section">
-
-            <div class="contact-info">
-                <p class="eyebrow">GET IN TOUCH</p>
-                <h2>Visit Our Kitchen</h2>
-
-                <p class="contact-intro">
-                    We look forward to welcoming you.
-                    Find our contact details and opening hours below.
-                </p>
-
-                <div class="contact-detail">
-                    <span class="detail-label">ADDRESS</span>
-                    <p>
-                        Add your restaurant address here
-                    </p>
-                </div>
-
-                <div class="contact-detail">
-                    <span class="detail-label">PHONE</span>
-                    <p>
-                        Add your restaurant phone number
-                    </p>
-                </div>
-
-                <div class="contact-detail">
-                    <span class="detail-label">EMAIL</span>
-                    <p>
-                        Add your restaurant email address
-                    </p>
-                </div>
-
-                <div class="contact-detail">
-                    <span class="detail-label">OPENING HOURS</span>
-                    <p>Monday – Friday: 11:00 AM – 10:00 PM</p>
-                    <p>Saturday – Sunday: 10:00 AM – 11:00 PM</p>
-                </div>
-            </div>
-
-            <!-- Reservation Form -->
-            <div class="reservation-card" id="reservation">
-
-                <p class="eyebrow">PLAN YOUR VISIT</p>
-                <h2>Request a Reservation</h2>
-
-                <p class="form-intro">
-                    Fill in your details to prepare a reservation request.
-                </p>
-
-                <form action="#" method="post">
-
-                    <div class="form-group">
-                        <label for="full-name">Full Name</label>
-                        <input
-                            type="text"
-                            id="full-name"
-                            name="full_name"
-                            placeholder="Enter your full name"
-                            autocomplete="name"
-                            minlength="2"
-                            maxlength="80"
-                            required
-                        >
-                    </div>
-
-                    <div class="form-row">
-
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="you@example.com"
-                                autocomplete="email"
-                                required
-                            >
-                        </div>
-
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input
-                                type="tel"
-                                id="phone"
-                                name="phone"
-                                placeholder="Enter phone number"
-                                autocomplete="tel"
-                                pattern="[0-9 +()-]{7,20}"
-                                title="Enter a valid phone number using 7 to 20 permitted characters."
-                                required
-                            >
-                        </div>
-
-                    </div>
-
-                    <div class="form-row">
-
-                        <div class="form-group">
-                            <label for="date">Reservation Date</label>
-                            <input
-                                type="date"
-                                id="date"
-                                name="reservation_date"
-                                min="2026-10-23"
-                                required
-                            >
-                        </div>
-
-                        <div class="form-group">
-                            <label for="time">Reservation Time</label>
-                            <select id="time" name="reservation_time" required>
-                                <option value="">Select time</option>
-                                <option value="11:00">11:00 AM</option>
-                                <option value="12:00">12:00 PM</option>
-                                <option value="13:00">1:00 PM</option>
-                                <option value="14:00">2:00 PM</option>
-                                <option value="17:00">5:00 PM</option>
-                                <option value="18:00">6:00 PM</option>
-                                <option value="19:00">7:00 PM</option>
-                                <option value="20:00">8:00 PM</option>
-                                <option value="21:00">9:00 PM</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="form-group">
-                        <label for="guests">Number of Guests</label>
-                        <select id="guests" name="guests" required>
-                            <option value="">Select guests</option>
-                            <option value="1">1 Guest</option>
-                            <option value="2">2 Guests</option>
-                            <option value="3">3 Guests</option>
-                            <option value="4">4 Guests</option>
-                            <option value="5">5 Guests</option>
-                            <option value="6">6 Guests</option>
-                            <option value="7+">7 or More Guests</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">
-                            Special Requests (Optional)
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="4"
-                            maxlength="500"
-                            placeholder="Tell us about any special requests..."
-                        ></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary form-submit">
-                        Submit Reservation Request
-                    </button>
-
-                    <p class="form-note">
-                        This demo form does not send or store reservations.
-                    </p>
-
-                </form>
-            </div>
-
-        </section>
-
-        <!-- Closing Call to Action -->
-        <section class="cta-section">
-            <p class="eyebrow">GOOD FOOD AWAITS</p>
-            <h2>We Can't Wait to Welcome You.</h2>
-            <p>Discover something delicious at Pixel Plate Kitchen.</p>
-            <a href="menu.html" class="btn btn-primary">
-                View Our Menu
-            </a>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <a href="index.html" class="logo">Pixel<span>Plate</span></a>
-        <p>Where Every Bite Tells a Story.</p>
-        <p class="copyright">
-            &copy; 2026 Pixel Plate Kitchen. All rights reserved.
-        </p>
-    </footer>
-
-</body>
+						<div class="form-row">
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="you@example.com"
+									autocomplete="email"
+									required>
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input
+									type="tel"
+									id="phone"
+									name="phone"
+									placeholder="Enter phone number"
+									autocomplete="tel"
+									pattern="[0-9 +()-]{7,20}"
+									title="Enter a valid phone number using 7 to 20 permitted characters."
+									required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group">
+								<label for="date">Reservation Date</label>
+								<input
+									type="date"
+									id="date"
+									name="reservation_date"
+									min="2026-10-23"
+									required>
+							</div>
+							<div class="form-group">
+								<label for="time">Reservation Time</label>
+								<select id="time" name="reservation_time" required>
+									<option value="">Select time</option>
+									<option value="11:00">11:00 AM</option>
+									<option value="12:00">12:00 PM</option>
+									<option value="13:00">1:00 PM</option>
+									<option value="14:00">2:00 PM</option>
+									<option value="17:00">5:00 PM</option>
+									<option value="18:00">6:00 PM</option>
+									<option value="19:00">7:00 PM</option>
+									<option value="20:00">8:00 PM</option>
+									<option value="21:00">9:00 PM</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="guests">Number of Guests</label>
+							<select id="guests" name="guests" required>
+								<option value="">Select guests</option>
+								<option value="1">1 Guest</option>
+								<option value="2">2 Guests</option>
+								<option value="3">3 Guests</option>
+								<option value="4">4 Guests</option>
+								<option value="5">5 Guests</option>
+								<option value="6">6 Guests</option>
+								<option value="7+">7 or More Guests</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="message">
+								Special Requests (Optional)
+							</label>
+							<textarea
+								id="message"
+								name="message"
+								rows="4"
+								maxlength="500"
+								placeholder="Tell us about any special requests..."
+							></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary form-submit">
+							Submit Reservation Request
+						</button>
+						<p class="form-note">
+							This demo form does not send or store reservations.
+						</p>
+					</form>
+				</div>
+			</section>
+			<!-- Closing Call to Action -->
+			<section class="cta-section">
+				<p class="eyebrow">GOOD FOOD AWAITS</p>
+				<h2>We Can't Wait to Welcome You.</h2>
+				<p>Discover something delicious at Pixel Plate Kitchen.</p>
+				<a href="menu.html" class="btn btn-primary">
+					View Our Menu
+				</a>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="index.html" class="logo">Pixel<span>Plate</span></a>
+			<p>Where Every Bite Tells a Story.</p>
+			<p class="copyright">
+				&copy; 2026 Pixel Plate Kitchen. All rights reserved.
+			</p>
+		</footer>
+	</body>
 </html>
